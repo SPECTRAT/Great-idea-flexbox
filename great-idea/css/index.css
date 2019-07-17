@@ -169,11 +169,24 @@ hr {
 
 .service-header{
 	width: 880px;
-	
+	margin-bottom: 30px;
+	margin-left: 15%;
+	margin-right: 15%
+}
+
+.services-header-img {
+	margin: auto;
 }
 
 .service-header h1{
-  font-size: 30px
+  font-size: 25px
+}
+
+.service-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -20px;
 }
 
 .contentbox {
@@ -182,6 +195,7 @@ hr {
 	background-color: #f0f0f0;
 	border: 1px solid black;
 	padding: 20px;
+	margin: 20px; 
 }
 /*play around with box size and width*/
 
