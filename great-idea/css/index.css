@@ -112,19 +112,17 @@ header img {
 	margin-left: 75px;
 }
 
-.info div {
+.topinfo {
 	display: flex;
-	flex-direct
-	
+	justify-content: center;
 }
 
 .top-left {
-	width: 450px;
-	
+	width: 440px;
 }
 
 .top-right {
-	width: 450px;
+	width: 440px;
 }
 
 .middle-img {
@@ -132,8 +130,10 @@ header img {
 	margin: 30px auto 30px auto;
 }
 
-.bottom-info div {
+.bottom-info {
 	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 .bottom-left {
