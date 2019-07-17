@@ -68,10 +68,8 @@ h1, h2, h3, h4, h5 {
 .navigation {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 70px;
 }
-/*go back later and double check spacing...might need
-justify-content: space-between*/
+
 nav a {
 	color: grey;
 	text-decoration: none;
@@ -89,11 +87,9 @@ nav a {
 .container {
   text-align: center;
 	padding-bottom: 60px; 
-}
-
-.container {
 	display: flex;
 	justify-content: center;
+	margin-top: 70px;
 }
 
 h1 {
@@ -163,41 +159,45 @@ footer {
 hr {
 	width: 880px;
 	margin-bottom: 30px;
+
 }
 
 /* Service Page*/
 
 .service-header{
+	margin: 20px auto 0px auto;
 	width: 880px;
-	margin-bottom: 30px;
-	margin-left: 15%;
-	margin-right: 15%
+	border-bottom: solid black 1.5px;
+	padding-bottom: 30px;
 }
 
 .services-header-img {
-	margin: auto;
+	margin: 30px auto 30px auto;
 }
 
 .service-header h1{
-  font-size: 25px
+	font-size: 25px;
+	padding-top: 0px;
 }
 
 .service-list {
+	max-width: 880px;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: -20px;
+	flex-wrap:wrap;
+	margin: 30px auto 0px auto;
+	justify-content: space-between;
+	
 }
+
 
 .contentbox {
 	height: 215px;
-	width: 390px;
+	width: 425px;
+	margin: 0px 0px 30px 0px;
 	background-color: #f0f0f0;
 	border: 1px solid black;
 	padding: 20px;
-	margin: 20px; 
 }
-/*play around with box size and width*/
 
 .contentbox button {
 	margin-top: 20px;
@@ -218,11 +218,15 @@ li {
 
 .facts {
 	display: flex;
+	margin: 0px auto 80px auto;
+	padding-top: 30px;
+	width: 880px;
 	justify-content: center;
+	border-top: solid black 1.5px;
 	
 }
 
 .facts-child {
-	width: 390px;
-	margin-right: 20px;
+	width: 400px;
+margin-right: 60px;
 }
